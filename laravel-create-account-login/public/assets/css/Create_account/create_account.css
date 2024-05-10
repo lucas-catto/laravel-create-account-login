@@ -1,0 +1,68 @@
+
+main {
+    justify-content:  center;
+    align-items:      center;
+}
+
+main form,
+main form button[type="submit"] {
+    width:            auto;
+    height:           auto;
+}
+
+main form {
+    padding:          8px 18px;
+    border:           4px solid var(--defaultBlue);
+    border-radius:    8px;
+    display:          flex;
+    flex-direction:   column;
+    align-items:      center;
+    justify-content:  center;
+    gap:              8px;
+}
+
+main form fieldset {
+    padding:          2px;
+    width:            auto;
+    height:           auto;
+    border:           2px solid var(--defaultBlue);
+    border-radius:    4px;
+}
+
+main form fieldset legend {
+    margin:           0 4px;
+    padding:          0 4px;
+}
+
+main form fieldset input,
+main form button[type="submit"]{
+    padding:          4px 8px;
+    width:            auto;
+    height:           auto;
+    border-radius:    4px;
+    background-color: var(--defaultWhite);
+    color:            var(--defaultBlue);
+}
+
+main form fieldset input {
+    width:            100vw;
+    max-width:        60vw;
+    height:           auto;
+    font-size:        12pt;
+}
+
+main form fieldset input:not(:placeholder-shown),
+main form fieldset input:focus {
+    background-color: var(--defaultBlue);
+    color:            var(--defaultWhite);
+}
+
+main form button[type="submit"] {
+    font-size:        11pt; 
+    border:           2px solid var(--defaultBlue);
+}
+
+main form button[type="submit"]:hover {
+    background-color: var(--defaultBlue);
+    color:            var(--defaultWhite);
+}
