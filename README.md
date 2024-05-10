@@ -3,6 +3,9 @@
 ## Clone Project:
 git clone https://github.com/lucas-catto/laravel-create-account-login.git
 
+## Enter the Repository:
+cd laravel-create-account-login
+
 ## Enter the Project:
 cd laravel-create-account-login
 
