@@ -4,7 +4,7 @@
 @section('title', 'Create Account')
 
 @section('links')
-<link rel="stylesheet" href="assets/css/Create_account/create_account.css">
+<link rel="stylesheet" href="assets/css/Login_create_account/login_create_account.css">
 @endsection
 
 @section('content')
