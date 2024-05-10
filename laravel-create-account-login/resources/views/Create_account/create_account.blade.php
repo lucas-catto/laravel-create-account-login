@@ -1,7 +1,7 @@
 
 @extends('Templates/master')
 
-@section('title', 'Home')
+@section('title', 'Create Account')
 
 @section('links')
 <link rel="stylesheet" href="assets/css/Create_account/create_account.css">
@@ -17,17 +17,17 @@
         </fieldset>
 
         <fieldset>
-            <legend>Name</legend>
+            <legend>Username</legend>
             <input type="text" name="username" placeholder="Username">
         </fieldset>
         
         <fieldset>
-            <legend>Name</legend>
+            <legend>Email</legend>
             <input type="email" name="email" placeholder="Email">
         </fieldset>
         
         <fieldset>
-            <legend>Name</legend>
+            <legend>Password</legend>
             <input type="password" name="password" placeholder="Password">
         </fieldset>
 
